@@ -233,15 +233,15 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#888888; background-color:#FFFFFF;}
-a{color:#82A800;}
+a{color: #2766c7;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
-input:focus, textarea:focus, *:required:focus{border-color:#82A800;}
+input:focus, textarea:focus, *:required:focus{border-color: #2766c7;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#82A800; border-color:#82A800;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color: rgba(39, 102, 199, 0.96); border-color: #ffffff;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 
@@ -252,7 +252,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#82A800;}
 .row4{color:#888888; background-color:#1F1F1F;}
 .row5, .row5 a{color:#888888; background-color:#FFFFFF;}
 
-.coloured{color:#FFFFFF; background-color:#82A800;}
+.coloured{color:#FFFFFF; background-color: #2766c7;}
 
 
 /* Header */
@@ -269,12 +269,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#82A800;}
 .blocks .overlay:hover::after{color:inherit; background-color:rgba(255,255,255,.75);}
 
 .elements article{box-shadow:0px 2px 5px rgba(0,0,0,.1);}
-.elements .txtwrap{border-color:#82A800;}
+.elements .txtwrap{border-color: #2766c7;}
 
 
 /* Testimonials */
 #testimonials li div{color:#000000; background-color:rgba(255,255,255,.75);}
-#testimonials li div:hover{color:#FFFFFF; background-color:#82A800;}
+#testimonials li div:hover{color:#FFFFFF; background-color: #2766c7;}
 
 
 /* Footer */
@@ -282,33 +282,33 @@ input:focus, textarea:focus, *:required:focus{border-color:#82A800;}
 #footer .linklist li{border-color:#2E2E2E;}
 #footer input, #footer button{border-color:transparent;}
 #footer input{color:#FFFFFF; background-color:#2E2E2E;}
-#footer input:focus{border-color:#82A800;}
-#footer button{color:#FFFFFF; background-color:#82A800;}
+#footer input:focus{border-color: #2766c7;}
+#footer button{color:#FFFFFF; background-color: #2766c7;}
 
 
 /* Navigation */
 #mainav{border-color:rgba(255,255,255,.2);}
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#82A800; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color: #2766c7; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#82A800;}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color: #2766c7;}
 #mainav form select{color:#FFFFFF; background-color:#1F1F1F; border-color:#000000;}
 
 #breadcrumb a{color:inherit; background-color:inherit;}
-#breadcrumb li:last-child a{color:#82A800;}
+#breadcrumb li:last-child a{color: #2766c7;}
 
 .container .sidebar nav a{color:inherit; border-color:#D7D7D7;}
-.container .sidebar nav a:hover{color:#82A800;}
+.container .sidebar nav a:hover{color: #2766c7;}
 
 .pagination a, .pagination strong{border-color:#D7D7D7;}
-.pagination .current *{color:#FFFFFF; background-color:#82A800;}
+.pagination .current *{color:#FFFFFF; background-color: #2766c7;}
 
-#backtotop{color:#FFFFFF; background-color:#82A800;}
+#backtotop{color:#FFFFFF; background-color: #2766c7;}
 
 
 /* Tables + Comments */
 table, th, td, #comments .avatar, #comments input, #comments textarea{border-color:#D7D7D7;}
-#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#82A800;}
+#comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color: #2766c7;}
 th{color:#FFFFFF; background-color:#373737;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#FBFBFB;}
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
