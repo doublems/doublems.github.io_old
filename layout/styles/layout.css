@@ -261,7 +261,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#82A800;}
 
 /* Page Intro */
 #pageintro article{color:#FFFFFF;}
-#pageintro article .introtxt{color:#000000; background-color:rgba(255,255,255,.75);}
+#pageintro article .introtxt{color:#000000; background-color: rgba(255, 255, 255, 0.9);}
 
 
 /* Content Area */
