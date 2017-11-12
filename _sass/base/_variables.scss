@@ -22,10 +22,9 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$dark-gray: #111;
+$dark-gray: #000;
 $medium-gray: #999;
 $light-gray: #ddd;
-$dark-blue: ##010535;
 $white: #fff;
 // Flat UI Colors. For more, see http://flatuicolors.com/
 $turquoise: #1abc9c;	// Turqoise
@@ -40,12 +39,12 @@ $bc-red: #bc0000;
 
 // Font Colors
 $base-background-color: #fff;
-$base-font-color: $dark-blue;
-$action-color: $dark-blue;
+$base-font-color: $dark-gray;
+$action-color: $dark-gray;
 $highlight-color: tint($action-color, 33%);
 
 // Border
-$base-border-color: $dark-blue;
+$base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
 // Forms
