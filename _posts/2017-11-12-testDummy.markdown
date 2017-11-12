@@ -13,8 +13,7 @@ categories: Eclipse, Java, Web
 많은 분들이 처음 Java를 학습 할 때, 이클립스 IDE를 설치하고 예시를 따라서 기본프로젝트로 src 하단에 `Helloworld.java`  를 작성한 경험이 있을것으로 생각합니다.
 
 기본프로젝트 이후로, Servlet, Spring 등 웹 프로젝트를 학습하면서 조금 더 복잡한 프로젝트 구조를 만나게 됩니다.  
-
-<img src="./assets/postphoto/20171112_1.PNG" title="웹프로젝트 시작">
+<img src="http://doublems.github.io/assets/postphoto/20171112_1.PNG" title="웹프로젝트 시작">
 
 책이나 예시 자료등을 보고 따라하는 웹프로젝트의 첫 학습은 흔히 기본프로젝트와는 별개로 새로운 프로젝트로 시작됩니다. (제 경험에 의하면) 기존에 학습하던 프로젝트 방식과 맥락이 이어지지 않는 갑작스런 변화는 프로젝트가 복잡하고 어렵다고 생각하게 합니다.
 
