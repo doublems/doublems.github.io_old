@@ -6,21 +6,6 @@ author: jerry Ahn
 categories: Dummy
 ---
 
-Hello
-
-this is sample
-
-    public void main(){
-      System.out.println;
-    }
-
-
-
-이라고 한다.
-
-
-<code>data-lightbox</code>
-
 2.
 
 Hello
@@ -38,3 +23,7 @@ public void main(){
 이라고 한다.
 
 `asdasdasdasd`
+
+<code>data-lightbox</code>
+
+
