@@ -25,6 +25,7 @@ $base-z-index: 0;
 $dark-gray: #111;
 $medium-gray: #999;
 $light-gray: #ddd;
+$dark-blue: #020A5F;
 $white: #fff;
 // Flat UI Colors. For more, see http://flatuicolors.com/
 $turquoise: #1abc9c;	// Turqoise
@@ -40,7 +41,7 @@ $bc-red: #bc0000;
 // Font Colors
 $base-background-color: #fff;
 $base-font-color: $dark-gray;
-$action-color: $dark-gray;
+$action-color: $dark-blue;
 $highlight-color: tint($action-color, 33%);
 
 // Border
