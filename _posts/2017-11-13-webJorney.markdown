@@ -34,12 +34,6 @@ cover:  "/assets/instacode.png"
 - [x] New Java Project를 통해 프로젝트를 생성
 - [x] src 하단 HelloWorld 클래스 생성
 
-<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-45-10.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-45-10.png" title="기본 프로젝트 시작" width="40%" height="40%">
-</a>
-<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-48-55.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-48-55.png" title="기본 프로젝트 시작" width="40%" height="40%">
-</a>
 <a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-52-8.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작"  width="40%" height="40%">
   <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-52-8.png" title="기본 프로젝트 시작" width="40%" height="40%">
 </a>
