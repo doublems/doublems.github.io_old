@@ -54,7 +54,7 @@ src는 이클립스에서 프로젝트 진행 때 봤던것이고, 나머지는 
 
 src안에는 만들었던 `HelloWorld.java`가 있습니다.  bin에는 `HelloWorld.class`가 있습니다.
 <a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-41-12.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-41-12.png" title="기본 프로젝트 시작"  width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-41-12.png" title="기본 프로젝트 시작" width="40%" height="40%">
 </a>
 bin은 컴파일러에 의해 컴파일 된 클래스가 저장된 공간입니다.
 
