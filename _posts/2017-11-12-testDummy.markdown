@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Eclipse IDE EE의 웹프로젝트로의 여정"
+title:  "Eclipse Web project로의 여정"
 date:   2017-11-13 00:20:59
 author: Jerry Ahn
 categories: Web Programming
@@ -9,7 +9,7 @@ cover:  "/assets/instacode.png"
 
 ---
 
-# Eclipse IDE EE의 웹프로젝트로의 여정
+# Eclipse Web project로의 여정
 
 #### 1) 동기
 
