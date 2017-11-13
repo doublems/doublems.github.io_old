@@ -17,8 +17,8 @@ cover:  "/assets/instacode.png"
 
 기본프로젝트 이후로, Servlet, Spring 등 웹 프로젝트를 학습하면서 조금 더 복잡한 프로젝트 구조를 만나게 됩니다.  
 
-<a href="//doublems.github.io/assets/postphoto/20171112_1.PNG" data-lightbox="웹프로젝트 시작" data-title="웹프로젝트 시작">
-  <img src="//doublems.github.io/assets/postphoto/20171112_1.PNG" title="웹프로젝트 시작" width="40%">
+<a href="//doublems.github.io/assets/postphoto/20171112_1.PNG" data-lightbox="웹프로젝트 시작" data-title="웹프로젝트 시작" width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/20171112_1.PNG" title="웹프로젝트 시작"  width="40%" height="40%"">
 </a>
 
 책이나 예시 자료등을 보고 따라하는 웹프로젝트의 첫 학습은 흔히 기본프로젝트와는 별개로 새로운 프로젝트로 시작됩니다. (제 경험에 의하면) 기존에 학습하던 프로젝트 방식과 맥락이 이어지지 않는 갑작스런 변화는 프로젝트가 복잡하고 어렵다고 생각하게 합니다.
@@ -34,47 +34,46 @@ cover:  "/assets/instacode.png"
 - [x] New Java Project를 통해 프로젝트를 생성
 - [x] src 하단 HelloWorld 클래스 생성
 
-<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-45-10.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-45-10.png" title="기본 프로젝트 시작" width="40%">
+<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-45-10.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-45-10.png" title="기본 프로젝트 시작" width="40%" height="40%">
 </a>
-<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-48-55.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-48-55.png" title="기본 프로젝트 시작" width="40%">
+<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-48-55.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-48-55.png" title="기본 프로젝트 시작" width="40%" height="40%">
 </a>
-<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-52-8.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-52-8.png" title="기본 프로젝트 시작" width="40%">
+<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-52-8.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작"  width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-52-8.png" title="기본 프로젝트 시작" width="40%" height="40%">
 </a>
 
 
 너무나도 익숙한 HelloWorld 입니다. 
 
 이때, 우리의  실제 프로젝트 저장은 어떤 폴더에 어떻게 저장될까요? 
-<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-54-12.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-54-12.png" title="기본 프로젝트 시작" width="40%">
+<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-54-12.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-54-12.png" title="기본 프로젝트 시작" width="40%" height="40%">
 </a>
 
 이클립스 시작 후 (~~Enter key로 순식간에 넘어가는)~~제일 처음 만나는 화면입니다. Workspace에 쓰여있는 실제 경로로 이동해보면 만들었던 프로젝트 폴더가 있습니다.
-<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-57-42.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-57-42.png" title="기본 프로젝트 시작" width="40%">
+<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-57-42.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_14-57-42.png" title="기본 프로젝트 시작" width="40%" height="40%">
 </a>
 src는 이클립스에서 프로젝트 진행 때 봤던것이고, 나머지는 생소합니다. 
 
 src안에는 만들었던 `HelloWorld.java`가 있습니다.  bin에는 `HelloWorld.class`가 있습니다.
-<a href="//doublems.github.io/assets/postphoto/web-jorney/i2017-11-4_15-41-12.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/2017-11-4_15-41-12.png" title="기본 프로젝트 시작" width="40%">
+<a href="//doublems.github.io/assets/postphoto/web-jorney/i2017-11-4_15-41-12.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/web-jorney/2017-11-4_15-41-12.png" title="기본 프로젝트 시작"  width="40%" height="40%">
 </a>
 bin은 컴파일러에 의해 컴파일 된 클래스가 저장된 공간입니다.
 
-<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-4-46.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-4-46.png" title="기본 프로젝트 시작" width="40%">
+<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-4-46.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작"  width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-4-46.png" title="기본 프로젝트 시작"  width="40%" height="40%">
 </a>
 
 **늘 여기서 문제였습니다. 여기까지하고 무엇을 해야 할 지 모릅니다.** 검정색 콘솔창에 글씨 아름답게 찍는 분들도 계시고, 여기서 멈추는 분들도 많습니다. **하지만, 이글의 제목처럼 이어서 웹프로젝트로 여정을 진행**하겠습니다.
 
 - [x] 사전준비 : Tomcat https://tomcat.apache.org/download-80.cgi
-
       ​
 
-3) 웹 프로젝트로 구조변경
+#### 3) 웹 프로젝트로 구조변경
 
 웹프로젝트로 구조를 변경하기 위해선 **Project facets**를 통한 환경구성이 필요합니다.
 
@@ -90,11 +89,11 @@ facet은 보석의 깎인 면, 측면등의 뜻으로 이클립스에서 사용�
 
 그리고, Dynamic WebModule, Java, JavaScript를 선택합니다. 그랬더니 WebContents 폴더와 하위로 META-INF, WEB-INF가 생겼습니다.
 
-<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-44-31.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작">
+<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-44-31.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
   <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-44-31.png" title="기본 프로젝트 시작" width="40%">
 </a>
-<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-51-38.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작">
-  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-51-38.png" title="기본 프로젝트 시작" width="40%">
+<a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-51-38.png" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-51-38.png" title="기본 프로젝트 시작" width="40%" height="40%">
 </a>
 
 
