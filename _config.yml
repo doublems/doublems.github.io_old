@@ -10,11 +10,11 @@ exclude:
 
 # Site settings
 title: Doublem's Garden
-subtitle: "ì„±ì¥í•˜ëŠ” ìš°ë¦¬ë¥¼ ìœ„í•œ í™”ë‹¨"
-email: jerry@doublem.org
+subtitle: "¼ºÀåÇÏ´Â ¿ì¸®¸¦ À§ÇÑ È­´Ü"
+email: jerry@doublem.kr
 name: jerry Ahn
 description: >
-  ë³¸ ë¸”ë¡œê·¸ëŠ” ì¦ì€ ì‹œí–‰ì°©ì˜¤ì™€ í˜‘ë ¥ê³¼ í”¼ë“œë°±ì„ í†µí•´ ìš°ë¦¬ì˜ ì„±ì¥í•˜ëŠ” ëª¨ìŠµì„ ê¸°ë¡í•˜ëŠ” í™”ë‹¨ì…ë‹ˆë‹¤.
+ º» ºí·Î±×´Â ÀæÀº ½ÃÇàÂø¿À¿Í Çù·Â°ú ÇÇµå¹éÀ» ÅëÇØ ¿ì¸®ÀÇ ¼ºÀåÇÏ´Â ¸ğ½ÀÀ» ±â·ÏÇÏ´Â È­´ÜÀÔ´Ï´Ù.
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/

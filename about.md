@@ -6,12 +6,34 @@ permalink: /about/
 
 <img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+Doublem.org는 애자일 소프트웨어 개발 선언을 존중합니다.
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+또한 각자의 자리에서 협력과 의견을 통한 성장을 지향합니다.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
 
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+
+공정과 도구보다 개인과 상호작용을
+
+포괄적인 문서보다 작동하는 소프트웨어를
+
+계약 협상보다 고객과의 협력을
+
+계획을 따르기보다 변화에 대응하기를
+
+*가치 있게 여긴다. *
+
+이 말은, 왼쪽에 있는 것들도 가치가 있지만,
+
+우리는 오른쪽에 있는 것들에 더 높은 가치를 둔다는 것이다.
+
+
+
+이문구는 Doublem.org 에서는 조금 더 구체적으로 아래와 같습니다.
+
+천편일률적인 책과 강의보다 사용자간 의사소통을 통해,
+
+활자속의 이론보다는 사용과 경험을 우선으로,
+
+의견을 존중하고 변화를 두려워 하지 않으며,
+
+한 걸음 씩 직접 밟아가며 기록하고 공유한다.

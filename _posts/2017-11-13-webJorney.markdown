@@ -16,9 +16,14 @@ cover:  "/assets/instacode.png"
 많은 분들이 처음 Java를 학습 할 때, 이클립스 IDE를 설치하고 예시를 따라서 기본프로젝트로 src 하단에 `Helloworld.java`  를 작성한 경험이 있을것으로 생각합니다.
 
 기본프로젝트 이후로, Servlet, Spring 등 웹 프로젝트를 학습하면서 조금 더 복잡한 프로젝트 구조를 만나게 됩니다.  
+<<<<<<< HEAD
+<a href="http://doublems.github.io/assets/postphoto/20171112_1.PNG" data-lightbox="웹프로젝트 시작" data-title="웹프로젝트 시작" width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/20171112_1.PNG" title="웹프로젝트 시작"  width="40%" height="40%"">
+=======
 
 <a href="//doublems.github.io/assets/postphoto/web-jorney/20171112_1.PNG" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
   <img src="//doublems.github.io/assets/postphoto/web-jorney/20171112_1.PNG" title="기본 프로젝트 시작" width="40%" height="40%">
+>>>>>>> 87455d79d0561c7bd79395c13ba4e7f5ad27fae2
 </a>
 
 책이나 예시 자료등을 보고 따라하는 웹프로젝트의 첫 학습은 흔히 기본프로젝트와는 별개로 새로운 프로젝트로 시작됩니다. (제 경험에 의하면) 기존에 학습하던 프로젝트 방식과 맥락이 이어지지 않는 갑작스런 변화는 프로젝트가 복잡하고 어렵다고 생각하게 합니다.
@@ -170,11 +175,12 @@ public class HelloWorld extends HttpServlet {
 
 또 상위 HelloWorld 소스파일의 컴파일된 .class 파일은 `<Tomcat-installationdirectory>/webapps/프로젝트명/WEB-INF/classe/>` 에 위치시켜야 합니다.
 
-> Tomcat 구현 소스를 살펴보면
+> (이 규칙들은 Servlet 2.4 specification에 보면 설명 되어 있고, Tomcat 구현 소스를 살펴보면 아래와 같이 구성이 되어 있습니다.)
 >
 > *web.xml 는 `ContextConfig.java`가 `getContextWebXmlSource()`메서드 에서 constants.java의 String ApplicationWebXml = "/WEB-INF/web.xml" 사용을 통해 web.xml 읽는 것으로 구현*
 >
 > *"/WEB-INF/lib/"; "META-INF/services/" 경로는 `WebappServiceLoader`에서 설정 *
+
 
 ```java
 package org.apache.catalina.startup;
@@ -233,13 +239,13 @@ public class WebappServiceLoader<T> {
 
 
 
-하지만, 이클립스 프로젝트에는 프로젝트 명과 하단에 WebContent가 있고, 그 하단에 META-INF와 WEB-INF가 있었습니다.  WebContent는 어떻게 된 것일까요?
+하지만 명세와 구성과는 다르게, 이클립스 프로젝트에는 프로젝트 명과 하단에 WebContent가 있고 그 하단에 META-INF와 WEB-INF가 있었습니다.  WebContent는 어떻게 해야할까요?
 
 배포 경로를 확인해보겠습니다.
 
 **프로젝트 우클릭 후 `Properties→ Deployment Assembly`로 이동하게 되면 출처와 배포 경로를 알 수 있습니다.**
 
-> class 파일의 경우는 /src  →  WEB-INF/classes로 알맞게 되어 있다.
+> class 파일의 경우는 /src  →  WEB-INF/classes로 알맞게 되어있습니다.
 > /WebContent는 → /(루트로) 되어있다.
 
 <a href="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_16-11-52.png" data-lightbox="경로확인" data-title="경로확인">
@@ -273,7 +279,7 @@ public class WebappServiceLoader<T> {
 
 따라서, 추후 웹 프로젝트 수행시는 War를 생성후 톰캣폴더에 직접 올려줘야 합니다.이를 배포라고 합니다.
 
-> ##### War 배포
+> #### War 배포
 >
 > 이클립스에서 File → export → war 선택 후 war 파일로 압축파일을 만든다. 만든 파일을 톰캣 내의 web-app 파일에 넣고 톰캣\bin 내의 startup을 통해 서버를 가동(켜있다면 재가동) 하면 war 파일의 압축이 해제되며 실행된다.
 
