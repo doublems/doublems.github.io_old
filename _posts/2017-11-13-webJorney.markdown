@@ -172,9 +172,9 @@ public class HelloWorld extends HttpServlet {
 
 > Tomcat 구현 소스를 살펴보면
 >
-> web.xml 는 `ContextConfig.java`가 `getContextWebXmlSource()`메서드 에서 constants.java의 String ApplicationWebXml = "/WEB-INF/web.xml" 사용을 통해 web.xml 읽는 것으로 구현
+> *web.xml 는 `ContextConfig.java`가 `getContextWebXmlSource()`메서드 에서 constants.java의 String ApplicationWebXml = "/WEB-INF/web.xml" 사용을 통해 web.xml 읽는 것으로 구현*
 >
-> "/WEB-INF/lib/"; "META-INF/services/" 경로는 `WebappServiceLoader`에서 설정 
+> *"/WEB-INF/lib/"; "META-INF/services/" 경로는 `WebappServiceLoader`에서 설정 *
 
 ```java
 package org.apache.catalina.startup;
