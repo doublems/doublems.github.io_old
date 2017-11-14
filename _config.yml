@@ -8,7 +8,7 @@ gems:
 exclude:
   - "/vendor/"
 
-# Site settings
+# Site settings.
 title: Doublem's Garden
 subtitle: "성장하는 우리를 위한 화단"
 email: jerry@doublem.kr
