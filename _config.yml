@@ -16,7 +16,7 @@ name: jerry Ahn
 description: "본 블로그는 잦은 시행착오와 협력과 피드백을 통해 우리의 성장하는 모습을 기록하는 화단입니다."
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "http://doublem.org" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://doublems.github.io" # the base hostname & protocol for your site
 cover: "./assets/header_image.jpg"
 logo: "http://doublems.github.io/assets/dd_logo.png"
@@ -78,7 +78,7 @@ social:
   - name: Facebook
     icon: facebook
     username: doublem.org
-    url:
+    url:https://www.facebook.com/Doublem.kr
     desc: Friend me on Facebook
     share: true
 
