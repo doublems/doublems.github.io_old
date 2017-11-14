@@ -17,8 +17,8 @@ cover:  "/assets/instacode.png"
 
 기본프로젝트 이후로, Servlet, Spring 등 웹 프로젝트를 학습하면서 조금 더 복잡한 프로젝트 구조를 만나게 됩니다.  
 
-<a href="//doublems.github.io/assets/postphoto/20171112_1.PNG" data-lightbox="웹프로젝트 시작" data-title="웹프로젝트 시작" width="40%" height="40%">
-  <img src="//doublems.github.io/assets/postphoto/20171112_1.PNG" title="웹프로젝트 시작"  width="40%" height="40%"">
+<a href="//doublems.github.io/assets/postphoto/web-jorney/20171112_1.PNG" data-lightbox="기본 프로젝트 시작" data-title="기본 프로젝트 시작" width="40%" height="40%">
+  <img src="//doublems.github.io/assets/postphoto/web-jorney/20171112_1.PNG" title="기본 프로젝트 시작" width="40%" height="40%">
 </a>
 
 책이나 예시 자료등을 보고 따라하는 웹프로젝트의 첫 학습은 흔히 기본프로젝트와는 별개로 새로운 프로젝트로 시작됩니다. (제 경험에 의하면) 기존에 학습하던 프로젝트 방식과 맥락이 이어지지 않는 갑작스런 변화는 프로젝트가 복잡하고 어렵다고 생각하게 합니다.
@@ -97,7 +97,7 @@ facet은 보석의 깎인 면, 측면등의 뜻으로 이클립스에서 사용�
 
 설치했던 Tomcat은 Java Servlet, JSP 등 JavaEE 설계에 대한 구현체입니다. 본 글에서는 자세하게 설명하기 어렵습니다. 지금은 웹프로그래밍을 위해 필요한 도구라고 생각하고 사용해보도록 하겠습니다.
 
-> The Apache Tomcat® software is an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies. 
+> * The Apache Tomcat® software is an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies. *
 
 
 
@@ -257,10 +257,10 @@ public class WebappServiceLoader<T> {
 
 여기서 주의 할 점은 이클립스에서 실행한 웹프로젝트는 설치된 톰캣 디렉토리에서 실행 되지 않습니다. 
 
-> '이클립스상에서 톰켓이 구동되면 워크스페이스로 잡은 폴더 내부 .metadate 폴더안에
-> war파일로 만들어서 압축을 풀었을때 같은 형태로 배포가 됩니다.'
+> *'이클립스상에서 톰켓이 구동되면 워크스페이스로 잡은 폴더 내부 .metadate 폴더안에*
+> *war파일로 만들어서 압축을 풀었을때 같은 형태로 배포가 됩니다.'*
 >
-> 참고  : <https://okky.kr/article/286482>
+> *참고  : <https://okky.kr/article/286482>*
 
 **`\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\` 에서 실행이 됩니다.** 
 
