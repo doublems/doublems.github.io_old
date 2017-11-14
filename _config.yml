@@ -13,8 +13,7 @@ title: Doublem's Garden
 subtitle: "성장하는 우리를 위한 화단"
 email: jerry@doublem.kr
 name: jerry Ahn
-description: >
-본 블로그는 잦은 시행착오와 협력과 피드백을 통해 우리의 성장하는 모습을 기록하는 화단입니다.
+description: >본 블로그는 잦은 시행착오와 협력과 피드백을 통해 우리의 성장하는 모습을 기록하는 화단입니다.
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
