@@ -16,10 +16,10 @@ name: jerry Ahn
 description: "본 블로그는 잦은 시행착오와 협력과 피드백을 통해 우리의 성장하는 모습을 기록하는 화단입니다."
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "http://doublem.org" # the subpath of your site, e.g. /blog/
 url: "http://doublems.github.io" # the base hostname & protocol for your site
 cover: "./assets/header_image.jpg"
-logo: "http://doublems.github.io/assets/dd_logo.png"
+logo: "/assets/dd_logo.png"
 
 # Build settings
 markdown: kramdown
@@ -184,12 +184,12 @@ social:
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
-    fb_image: "http://doublem.org/assets/doublem_logo_sm.png"
+    fb_image: "/assets/doublem_logo_sm.png"
     fb_image_width: 612
     fb_image_height: 605
     fb_image_type: "image/png"
 
-    twitter_image: "http://doublem.org/assets/doublem_logo_sm.png"
+    twitter_image: "/assets/doublem_logo_sm.png"
 
     os_repo: "https://github.com/bencentra/centrarium.com"
     os_rcs_type: "git"
