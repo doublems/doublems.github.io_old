@@ -17,9 +17,9 @@ description: "본 블로그는 잦은 시행착오와 협력과 피드백을 통
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://doublems.github.io" # the base hostname & protocol for your site
+url: "http://doublem.org" # the base hostname & protocol for your site
 cover: "./assets/header_image.jpg"
-logo: "http://doublems.github.io/assets/dd_logo.png"
+logo: "http://doublem.org/assets/dd_logo.png"
 
 # Build settings
 markdown: kramdown
