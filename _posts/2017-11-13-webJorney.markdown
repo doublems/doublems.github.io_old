@@ -6,6 +6,7 @@ author: Jerry Ahn
 categories: Web Programming
 tags:	Eclipse, Java, Web
 cover:  "/assets/instacode.png"
+comments: true
 
 ---
 
