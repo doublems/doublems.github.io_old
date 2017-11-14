@@ -5,7 +5,25 @@ permalink: /about/
 ---
 
 <img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+<style>
 
+.wrap { margin:auto; text-align:center; }
+
+.box { vertical-align:middle; display:inline-block; }
+
+.box .in { width:50px; height:30px; background-color:#FFF; }
+
+</style>
+
+ 
+
+<body>
+
+<div class="wrap">
+
+<div class="box">
+
+<div class="in">
 ### Doublem.org는 애자일 소프트웨어 개발 선언을 존중합니다.
 
 ### 또한 각자의 자리에서 협력과 의견을 통한 성장을 지향합니다.
@@ -41,3 +59,10 @@ permalink: /about/
 - #### **한 걸음 씩 직접 밟아가며 기록하고 공유한다.**
 
 ------
+</div>
+
+</div>
+
+</div>
+
+</body>
