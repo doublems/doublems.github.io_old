@@ -1,39 +1,40 @@
----
-layout: page
-title: About
-permalink: /about/
----
+# brume
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+I am not a designer so I cannot impress you with breathtaking Jekyll themes, but brume is something that just came to my mind and I had to build it. It is a clean and simple theme, which has an index page that lists all your blog posts divided by the year, a single post page and a layout for any additional pages you might need.
 
-Doublem.org는 애자일 소프트웨어 개발 선언을 존중합니다.
+This is how the "Home" page looks like.
 
-또한 각자의 자리에서 협력과 의견을 통한 성장을 지향합니다.
+![Home](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/home.png)
 
+And this is a single post.
 
+![Post](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_1.png)
 
-공정과 도구보다 개인과 상호작용을
+![Post. More content examples.](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_2.png)
 
-포괄적인 문서보다 작동하는 소프트웨어를
+## Usage
 
-계약 협상보다 고객과의 협력을
+Brume can be installed just like any other Jekyll theme as described [here](https://jekyllrb.com/docs/themes/#installing-a-theme),
+but there are a couple of additional steps you have to take.
 
-계획을 따르기보다 변화에 대응하기를
+1. All the links are defined in a file *_data/links.yml*, therefore you'll have to create a *_data*
+directory and put this file there in order for navigation to be displayed.
+2. Brume uses `home` layout for the home page (like the default Jekyll theme). All you need to do
+is create an *index.html* or *index.md* file with `layout: home`. If you want the home page to be
+listed in the navigation you have to add `title` to it's front matter that matches
+the title you used for the home page link in the *links.yml* file. Titles are used to indicate
+the current page.
 
-*가치 있게 여긴다. *
+## Theme customization
 
-이 말은, 왼쪽에 있는 것들도 가치가 있지만,
+This theme has 4 predefined colors that can be used for links:
 
-우리는 오른쪽에 있는 것들에 더 높은 가치를 둔다는 것이다.
+- azul
+- ruby
+- amber
+- avocado
 
+By default it uses *avocado*, but if you want to select another one just change the `color_scheme` setting in
+*_config.yml* file.
 
-
-이문구는 Doublem.org 에서는 조금 더 구체적으로 아래와 같습니다.
-
-천편일률적인 책과 강의보다 사용자간 의사소통을 통해,
-
-활자속의 이론보다는 사용과 경험을 우선으로,
-
-의견을 존중하고 변화를 두려워 하지 않으며,
-
-한 걸음 씩 직접 밟아가며 기록하고 공유한다.
+Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!
