@@ -21,6 +21,8 @@ tags:	Eclipse, Java, Web
 
 따라서  이 글은 **기본프로젝트  `HelloWolrd.java` 부터 웹프로젝트까지의 프로젝트의 연결이 궁금하신 분** 들에게 도움이 될 수 있을 것으로 생각됩니다.
 
+------
+
 #### 2) 자바 기본 프로그래밍
 
 **이클립스를 통해서 가장 처음 만나는 기본 프로그래밍 프로젝트를 시작합니다.**
@@ -58,10 +60,12 @@ bin은 컴파일러에 의해 컴파일 된 클래스가 저장된 공간입니�
   <img src="//doublems.github.io/assets/postphoto/web-jorney/image2017-11-4_15-4-46.png" title="기본 프로젝트 시작"  width="40%" height="40%">
 </a>
 
-**늘 여기서 문제였습니다. 여기까지하고 무엇을 해야 할 지 모릅니다.** 검정색 콘솔창에 글씨 아름답게 찍는 분들도 계시고, 여기서 멈추는 분들도 많습니다. **하지만, 이글의 제목처럼 이어서 웹프로젝트로 여정을 진행**하겠습니다.
+**늘 여기서 문제였습니다. 여기까지하고 무엇을 해야 할 지 모릅니다.** 검정색 콘솔창에 글씨를 아름답게 찍는 분들도 계시고, 여기서 멈추는 분들도 많습니다.
+**하지만, 이글의 제목처럼 이어서 웹프로젝트로 여정을 진행**하겠습니다.
 
-- [x] 사전준비 : Tomcat https://tomcat.apache.org/download-80.cgi
+- [x] 사전준비 : 톰캣설치 Tomcat https://tomcat.apache.org/download-80.cgi
       ​
+------
 
 #### 3) 웹 프로젝트로 구조변경
 
@@ -143,7 +147,8 @@ public class HelloWorld extends HttpServlet {
 <?xml version="1.0" encoding="UTF-8"?> 
 <web-app xmlns="http://java.sun.com/xml/ns/javaee" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+    http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
     version="2.5">
      
 <servlet>
@@ -242,7 +247,7 @@ public class WebappServiceLoader<T> {
 </a>
 
 
-프로젝트를 실행합니다.
+작성된 코드를 톰캣을 통해서 실행해봅시다.
 
 - [x] 프로젝트 우클릭 -> Run as  -> Run on Server
 
@@ -263,14 +268,12 @@ public class WebappServiceLoader<T> {
 자세한 정보는 Servers 의 server.xml에서 마지막줄을 확인하면 자세히 알 수 있습니다.
 
 ```xml
-<Context docBase="ProjectStructure_test" path="/ProjectStructure_test" reloadable="true" source="org.eclipse.jst.jee.server:ProjectStructure_test"/></Host>
+<Context docBase="ProjectStructure_test" path="/ProjectStructure_test" reloadable="true" 
+source="org.eclipse.jst.jee.server:ProjectStructure_test"/></Host>
 ```
 
 따라서, 추후 웹 프로젝트 수행시는 War를 생성후 톰캣폴더에 직접 올려줘야 합니다.이를 배포라고 합니다.
-
+------
 > #### War 배포
 >
 > 이클립스에서 File → export → war 선택 후 war 파일로 압축파일을 만든다. 만든 파일을 톰캣 내의 web-app 파일에 넣고 톰캣\bin 내의 startup을 통해 서버를 가동(켜있다면 재가동) 하면 war 파일의 압축이 해제되며 실행된다.
-
-
-

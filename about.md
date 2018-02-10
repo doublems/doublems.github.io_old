@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+<img src="//doublem.org/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
 
 ### Doublem.org는 애자일 소프트웨어 개발 선언을 존중합니다.
 
