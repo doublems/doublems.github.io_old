@@ -1,40 +1,132 @@
-# brume
+> NOTE! Kiko-plus theme will not be update anymore. Please see the new and easier version, [kiko-now](https://github.com/AWEEKJ/kiko-now) theme which is mixed [jekyll-now](https://github.com/barryclark/jekyll-now) and Kiko-plus.
 
-I am not a designer so I cannot impress you with breathtaking Jekyll themes, but brume is something that just came to my mind and I had to build it. It is a clean and simple theme, which has an index page that lists all your blog posts divided by the year, a single post page and a layout for any additional pages you might need.
+# Kiko Plus Theme
 
-This is how the "Home" page looks like.
+![image](/images/image.png)
 
-![Home](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/home.png)
+You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
 
-And this is a single post.
+## Features
 
-![Post](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_1.png)
+- Disqus comment system
+- Google analytics
+- Pagination support
+- Custom tags
+- SEO support
 
-![Post. More content examples.](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_2.png)
 
-## Usage
+## Installation
 
-Brume can be installed just like any other Jekyll theme as described [here](https://jekyllrb.com/docs/themes/#installing-a-theme),
-but there are a couple of additional steps you have to take.
+#### Method 1: new master's repository (The Best)
 
-1. All the links are defined in a file *_data/links.yml*, therefore you'll have to create a *_data*
-directory and put this file there in order for navigation to be displayed.
-2. Brume uses `home` layout for the home page (like the default Jekyll theme). All you need to do
-is create an *index.html* or *index.md* file with `layout: home`. If you want the home page to be
-listed in the navigation you have to add `title` to it's front matter that matches
-the title you used for the home page link in the *links.yml* file. Titles are used to indicate
-the current page.
+1. First [fork](https://github.com/AWEEKJ/Kiko-plus/fork) it.
+2. Change your forked repository name _Kiko-plus_ to __USERNAME.github.io__ where __USERNAME__ is your github username.
+3. Access your new blog via [https://username.github.io](https://username.github.io).
+4. [See configuration](#configuration).
 
-## Theme customization
+#### Method 2: gh-pages in existing repository
 
-This theme has 4 predefined colors that can be used for links:
+1. Create a new branch called _gh-pages_ in the repository where you want to add a template [managing branches](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
+2. From command line run `git clone https://github.com/AWEEKJ/Kiko-plus.git` - this will clone _Kiko-plus_ template to your computer.
+3. Create new branch `git checkout -b gh-pages` where _gh-pages_ will be your branch name.
+4. Add remote, which is your repo from the first step, to your new branch `git remote add gh-pages https://github.com/<yourName>/<yourMaster>/gh-pages`. _yourName_ is your account name and _yourMaster_ is your repository.
+5. Push new branch to remote `git push gh-pages`.
+6. Update `_config.yml` file by changing `baseurl: "<branchName>"` _branchName_ is your branch name where _gh-pages_ resides. See [configuration](#configuration).
 
-- azul
-- ruby
-- amber
-- avocado
+## Configuration
 
-By default it uses *avocado*, but if you want to select another one just change the `color_scheme` setting in
-*_config.yml* file.
+All configuration is done via `_config.yml` file which you will find in your main repo folder. Change this `<something>` to yours.
 
-Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!
+### Basic
+
+- Config your blog name.
+
+```yml
+name: <blog-name>
+```
+
+- These configuration in `author:` is for links to icons in footer. If you want to add more link icons, modify `_includes/footer.html` file.
+
+```yml
+author:
+  facebook:         your-id
+  twitter:          your-id
+  github:           your-id
+  linkedin:         your-id
+  medium:           your-id
+  tumblr:           your-id
+  email:            your-id@your-email.com
+```
+
+- Change copyright year and name in footer.
+
+```yml
+copyright:
+  year:             2017
+  name:             Kiko
+```
+
+### Google analytics
+
+- Change this to your Google Analytic ID.
+
+```yml
+google-analytics:
+  id:               "your-id"
+```
+
+### Disqus
+
+- Change this to your Disqus short name.
+
+```yml
+disqus:
+  id:               "your-id"
+```
+
+### URL
+
+- Config your domain.
+
+```yml
+url: "https://<your-name>.github.io"
+```
+
+- **NOTE** When if running locally, change url to 
+
+```yml
+url: "https://localhost:4000"
+```
+
+- Change this to your branch name where _gh-pages_ resides. 
+- **NOTE** apply only if you used __Method 2__ for installation.
+
+```yml
+baseurl: "/<branch-name>"
+```
+
+## Run in Local
+
+1. Download or clone your remote repository.
+2. Go inside folder. First, run `rake geminstall`. 
+3. Second, run `jekyll serve` or `rake preview`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). Make sure that `url` in `_config.yml` file is `url: "https://localhost:4000"`. You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
+
+## Rakefile Usage
+
+```bash
+# Create new post
+$ rake post title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"] 
+
+# Create new draft post
+$ rake draft title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"]
+
+# Install Jekyll Plugins. Do before running in local.
+$ rake geminstall
+
+# Run in Local
+$ rake preview
+```
+
+## License
+
+This theme is released under MIT License.

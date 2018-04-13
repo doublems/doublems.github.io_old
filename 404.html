@@ -1,18 +1,14 @@
 ---
-title: Limbo
+layout: default
+permalink: /404.html
+title: 404 Not Found
 ---
-
-<!DOCTYPE html>
-<html>
-  <head>
-    {% include head.html %}
-  </head>
-  <body>
-    <div class="container not-found">
-      <h1 class="bounceInDown animated">404</h1>
-      <p>
-        Did You steal the content from me? No?! Well, somebody did, and you're the only one here.
-      </p>
-    </div>
-  </body>
-</html>
+<header>
+  <h1 class="header-small">
+    <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
+  </h1>
+</header>
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <span>Sorry, but the page you were trying to view does not exist.</span>
+</div>
