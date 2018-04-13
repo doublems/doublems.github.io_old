@@ -32,7 +32,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "jb7959"
+  id:               "jb7959@naver.com"
 
 # URL
 url:                "https://doublems.github.io" # the base hostname & protocol for your site
